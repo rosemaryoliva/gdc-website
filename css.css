@@ -1,0 +1,88 @@
+ 
+/*------------------------------ HOMEPAGE -------------------------------------------*/
+
+ /*-----------NAVIGATION -------------- */
+.navigation{
+  display: flex;
+  flex-direction: row;
+  font-size: 26px;
+  padding-left: 90px;
+
+
+}
+
+a{
+  text-decoration: none;
+  margin: 1%;
+  padding: 2%;
+
+}
+/*----------- GIF -------------- */
+.top-photo{
+  width: 1238px;
+  height: 481px;
+  padding-left: 98px;
+  top: 173px;
+
+}
+/*----------- TITLE -------------- */
+.title{
+  font-size: 40px;
+  padding-top: 7%;
+  padding-left: 10%;
+  padding-bottom: -20px;
+}
+
+p{
+  padding-left:10%;
+  padding-top: -42px;
+  padding-bottom: 10%;
+}
+
+
+/*----------- WORK -------------- */
+#work{
+  height: 500px;
+  width: 600px;
+  /*background-color: #555;*/
+}
+.box-container{
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 7%;
+  padding-right: 7%;
+
+  
+}
+
+.box-1{
+   background-image: url(https://www.fillmurray.com/500/600);
+}
+.box-2{
+ background-image: url(https://www.fillmurray.com/500/900);
+}
+.box-3{
+  background-image: url(https://www.fillmurray.com/1000/400);
+}
+.box-4{
+  background-image: url(https://www.fillmurray.com/400/800);
+}
+.box-5{
+  background-image: url(https://www.fillmurray.com/500/600);
+}
+.box-6{
+  background-image: url(https://www.fillmurray.com/500/900);
+}
+.box-7{
+  background-image: url(https://www.fillmurray.com/1000/400);
+}
+.box-8{
+   background-image: url(https://www.fillmurray.com/400/800);
+}
+.box-9{
+  background-image: url(https://www.fillmurray.com/500/900);
+}
+.box-10{
+  background-image: url(https://www.fillmurray.com/1000/400);
+}
