@@ -1,4 +1,26 @@
+
+@media screen and (max-width: 600px) {
+
+  .slidershow {
+    opacity: 0;
+  }
+
+}
+@media screen and (max-width: 900px) {
  
+  .slidershow {
+   height: 10px;
+   width: 30px;
+   overflow: hidden;
+   padding: 5%;
+  }
+
+}
+
+
+
+
+
 /*------------------------------ HOMEPAGE -------------------------------------------*/
 
  /*-----------NAVIGATION -------------- */
@@ -221,8 +243,9 @@ button:hover, button:focus {
 
 
 footer{
-  display: block;
   background-color: #c4d82e;
+  width:100%;
+  height: 80px;
 }
 .bottom-text{
   color: white;
@@ -236,6 +259,8 @@ footer{
   width: 85%;
   height: 60%;
   overflow: hidden;
+  margin: 5%;
+
 }
 
 .middle {
@@ -310,4 +335,15 @@ input[name="r"] {
 .about-p{
   padding-top: 5%;
 }
+
+.team-photos{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5%;
+}
+.content{
+  padding: 5%;
+  margin-top: 5%;
+}
+
 
